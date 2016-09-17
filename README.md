@@ -4,6 +4,7 @@
 
 * Clone this repository
 ```
+$ cd ~/
 $ git clone git@github.com:khiyoko/dotfiles.git
 ```
 
