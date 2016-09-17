@@ -1,0 +1,14 @@
+#
+# .gitignore
+#  UPDATE: 09/17/2016
+#
+
+# EXAMPLES
+# --- ignore exe file
+# *.exe
+# --- ignore some folders (e.g. bin)
+# bin/
+# --- not to ignore a certain pattern (e.g. /hoge/hoge.exe)
+# !/hoge/hoge.exe
+# --- ignore specific extentions in folder (e.g. not need .ts file in hoge)
+# hoge/**/*.ts

@@ -1,0 +1,17 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = khiyoko
+  # email = @see .gitconfig.local
+[include]
+  path = .gitconfig.local
+[color]
+  ui = auto
+  diff = auto
+  status = auto
+  branch = auto
+  grep = auto
+[core]
+  editor = vim
+[push]
+  default = current
