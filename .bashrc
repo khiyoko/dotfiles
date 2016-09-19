@@ -1,6 +1,5 @@
 # 
 # .bashrc
-#  UPDATE: 09/17/2016
 #
 
 # PROMPT -------------------------------------------------------------
@@ -33,3 +32,12 @@ alias la='ls -AG'
 
 # HISTORY -----------------------------------------------------------
 export HISTSIZE=1000
+
+# PYENV -------------------------------------------------------------
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+export PYENV_VIRTUALENV_DISABLE_PROMPT=1
+
+# HOMEBREW ----------------------------------------------------------
+# to avoid warning messages on config
+alias brew="env PATH=${PATH/\/Users\/${USER}\/\.pyenv\/shims:/} brew"
