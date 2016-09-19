@@ -9,12 +9,12 @@ Install apps below
 * java JDK
 
 ### Steps
-* Clone this repository
+Clone this repository
 ```
 $ cd ~/
 $ git clone git@github.com:khiyoko/dotfiles.git
 ```
-* Run homebrewInstall.sh and dotfilesLink.sh
+Run homebrewInstall.sh and dotfilesLink.sh
 Note: You need to make these executable.
 ```
 $ cd ~/dotfiles
@@ -25,7 +25,7 @@ $ ./homebrewInstall.sh
 $ chmod +x ./dotfilesLink.sh
 $ ./dotfiles/dotfilesLink.sh
 ```
-* Install anaconda
+Install anaconda
 x.x.x means the latest version
 ```
 $ pyenv install -l | grep ana
