@@ -14,8 +14,8 @@ Clone this repository
 $ cd ~/
 $ git clone git@github.com:khiyoko/dotfiles.git
 ```
-Run homebrewInstall.sh and dotfilesLink.sh
-Note: You need to make these executable.
+Run homebrewInstall.sh and dotfilesLink.sh  
+Note: After run dotfilesLink.sh, you need to replace sample@domein with your real Email in .gitconfig.local copied into your $HOME.
 ```
 $ cd ~/dotfiles
 $ chmod +x ./homebrewInstall.sh
