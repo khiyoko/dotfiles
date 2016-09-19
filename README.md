@@ -25,8 +25,7 @@ $ ./homebrewInstall.sh
 $ chmod +x ./dotfilesLink.sh
 $ ./dotfiles/dotfilesLink.sh
 ```
-Install anaconda
-x.x.x means the latest version
+Install anaconda (x.x.x means the latest version)
 ```
 $ pyenv install -l | grep ana
 $ pyenv install anaconda3-x.x.x
