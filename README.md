@@ -15,7 +15,7 @@ $ cd ~/
 $ git clone git@github.com:khiyoko/dotfiles.git
 ```
 Run homebrewInstall.sh and dotfilesLink.sh  
-Note: After run dotfilesLink.sh, you need to replace sample@domein with your real Email in .gitconfig.local copied into your $HOME.
+Note: After run dotfilesLink.sh, you need to replace sample@domein in .gitconfig.local copied into your $HOME with your real Email.
 ```
 $ cd ~/dotfiles
 $ chmod +x ./homebrewInstall.sh
