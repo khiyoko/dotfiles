@@ -52,6 +52,7 @@ casks=(
   google-drive
   # drawing tool
   skitch
+  gimp
   # web browser
   google-chrome
   # communication/chat
