@@ -52,7 +52,6 @@ casks=(
   google-drive
   # drawing tool
   skitch
-  gimp
   # web browser
   google-chrome
   # communication/chat
@@ -73,6 +72,19 @@ casks=(
 echo "--- Start: brew cask install apps... ---"
 for cask in "${casks[@]}"; do
   brew cask install $cask
+done
+
+# Applications TO BE INSTALLED with sudo
+sdcasks=(
+  # free photoshop
+  gimp
+  # free illustrator
+  inkspace
+  )
+
+echo "--- Start: sudo brew cask install apps... ---"
+for sdcask in "${sdcasks[@]}"; do
+  sudo brew cask install $sdcask
 done
 
 echo "--- Cleaning... ---"
