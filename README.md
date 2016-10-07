@@ -5,8 +5,8 @@
 ### Prerequisites
 Install apps below
 * Xcode and Command Line Tools
-* X11
-* java JDK
+* X11 (option; to be installed via homebrew)
+* java JDK (option; to be installed via homebrew)
 
 ### Steps
 Clone this repository
