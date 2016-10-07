@@ -4,15 +4,6 @@
 echo "--- Install homebrew... ---"
 which brew >/dev/null 2>&1 || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-echo "--- Run brew doctor... ---"
-which brew >/dev/null 2>&1 && brew doctor
-
-echo "--- Run brew update... ---"
-which brew >/dev/null 2>&1 && brew update
-
-echo "--- Run brew upgrade... ---"
-brew upgrade --all
-
 # INSTALL Homebrew cask
 echo "--- Brew tap... ---"
 brew tap caskroom/cask
@@ -28,6 +19,8 @@ formulas=(
   openssl
   lua
   vim
+  # SQL
+  sqlite3
   # for python
   pyenv
   pyenv-virtualenv
@@ -44,6 +37,8 @@ done
 
 # Applications TO BE INSTALLED
 casks=(
+  java
+  xquartz
   # application cleaner
   appcleaner
   # file/text sharing
@@ -67,6 +62,8 @@ casks=(
   # Growl
   growl-fork
   growlnotify
+  # sqlite DB Browser
+  sqlitebrowser
   )
 
 echo "--- Start: brew cask install apps... ---"
@@ -86,6 +83,15 @@ echo "--- Start: sudo brew cask install apps... ---"
 for sdcask in "${sdcasks[@]}"; do
   sudo brew cask install $sdcask
 done
+
+echo "--- Run brew doctor... ---"
+which brew >/dev/null 2>&1 && brew doctor
+
+echo "--- Run brew update... ---"
+which brew >/dev/null 2>&1 && brew update
+
+echo "--- Run brew upgrade... ---"
+brew upgrade --all
 
 echo "--- Cleaning... ---"
 brew cleanup
