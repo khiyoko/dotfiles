@@ -4,6 +4,12 @@
 echo "--- Install homebrew... ---"
 which brew >/dev/null 2>&1 || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+echo "--- Run brew doctor... ---"
+which brew >/dev/null 2>&1 && brew doctor
+
+echo "--- Run brew update... ---"
+which brew >/dev/null 2>&1 && brew update
+
 # INSTALL Homebrew cask
 echo "--- Brew tap... ---"
 brew tap caskroom/cask
@@ -83,12 +89,6 @@ echo "--- Start: sudo brew cask install apps... ---"
 for sdcask in "${sdcasks[@]}"; do
   sudo brew cask install $sdcask
 done
-
-echo "--- Run brew doctor... ---"
-which brew >/dev/null 2>&1 && brew doctor
-
-echo "--- Run brew update... ---"
-which brew >/dev/null 2>&1 && brew update
 
 echo "--- Run brew upgrade... ---"
 brew upgrade --all
