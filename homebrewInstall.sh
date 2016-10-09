@@ -34,6 +34,8 @@ formulas=(
   ghostscript
   imagemagick
   pdf2svg
+  # encoding
+  nkf
   )
 
 echo "--- Start: brew install apps... ---"
