@@ -14,7 +14,7 @@ which brew >/dev/null 2>&1 && brew update
 echo "--- Brew tap... ---"
 brew tap caskroom/cask
 brew tap caskroom/homebrew-versions
-brew tap caskroom/fonts
+#brew tap caskroom/fonts
 
 # Formulas TO BE INSTALLED
 formulas=(
@@ -37,6 +37,8 @@ formulas=(
   pdf2svg
   # encoding
   nkf
+  # 7z
+  p7zip
   )
 
 echo "--- Start: brew install apps... ---"
@@ -74,8 +76,8 @@ casks=(
   # sqlite DB Browser
   sqlitebrowser
   # fonts
-  font-myrica
-  font-myricam
+#  font-myrica
+#  font-myricam
   )
 
 echo "--- Start: brew cask install apps... ---"
