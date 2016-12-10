@@ -31,7 +31,14 @@ alias ll='ls -lG'
 alias la='ls -AG'
 
 # HISTORY -----------------------------------------------------------
-export HISTSIZE=1000
+function share_history {
+  history -a
+  history -c
+  history -r
+}
+PROMPT_COMMAND='share_history'
+shopt -u histappend
+export HISTSIZE=9999
 
 # PYENV -------------------------------------------------------------
 eval "$(pyenv init -)"
