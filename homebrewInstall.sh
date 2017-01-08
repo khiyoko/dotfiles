@@ -26,6 +26,8 @@ formulas=(
   openssl
   lua
   vim
+  # C
+  gcc
   # SQL
   sqlite3
   # for python
