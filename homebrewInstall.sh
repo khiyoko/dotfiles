@@ -41,6 +41,8 @@ formulas=(
   nkf
   # 7z
   p7zip
+  # file converter
+  pandoc
   )
 
 echo "--- Start: brew install apps... ---"
@@ -77,6 +79,8 @@ casks=(
   growlnotify
   # sqlite DB Browser
   sqlitebrowser
+  # music 
+  spotify
   # fonts
 #  font-myrica
 #  font-myricam
@@ -84,7 +88,7 @@ casks=(
 
 echo "--- Start: brew cask install apps... ---"
 for cask in "${casks[@]}"; do
-  brew cask install $cask
+  brew cask install --appdir="/Applications" $cask
 done
 
 # Applications TO BE INSTALLED with sudo
@@ -97,7 +101,7 @@ sdcasks=(
 
 echo "--- Start: sudo brew cask install apps... ---"
 for sdcask in "${sdcasks[@]}"; do
-  sudo brew cask install $sdcask
+  sudo brew cask install --appdir="/Applications" $sdcask
 done
 
 echo "--- Run brew upgrade... ---"
