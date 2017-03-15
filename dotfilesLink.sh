@@ -15,7 +15,7 @@ for f in .??*; do
 done
 
 # COPY .gitconfig.local.template
-[ -e ~/.gitconfig.local ] || cp ~/dotfiles/.gitconfig.local.template ~/.gitlocal.config
+[ -e ~/.gitconfig.local ] || cp ~/dotfiles/.gitconfig.local.template ~/.gitconfig.local
 
 cat << END
 
