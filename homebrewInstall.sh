@@ -14,11 +14,11 @@ which brew >/dev/null 2>&1 && brew update
 echo "--- Brew tap... ---"
 brew tap caskroom/cask
 brew tap caskroom/homebrew-versions
-#brew tap caskroom/fonts
+brew tap caskroom/fonts
 
 # Formulas TO BE INSTALLED
 formulas=(
-  git
+  # git
   wget  # file downloader
   curl
   tree
@@ -82,8 +82,13 @@ casks=(
   # music 
   spotify
   # fonts
-#  font-myrica
-#  font-myricam
+  font-myrica
+  font-myricam
+  # graphics
+  gimp
+  inkscape
+  # latex (shoulde be listed here becuase it could take long time...)
+  mactex
   )
 
 echo "--- Start: brew cask install apps... ---"
@@ -91,21 +96,9 @@ for cask in "${casks[@]}"; do
   brew cask install --appdir="/Applications" $cask
 done
 
-# Applications TO BE INSTALLED with sudo
-sdcasks=(
-  # free photoshop
-  gimp
-  # free illustrator
-  inkspace
-  )
-
-echo "--- Start: sudo brew cask install apps... ---"
-for sdcask in "${sdcasks[@]}"; do
-  sudo brew cask install --appdir="/Applications" $sdcask
-done
 
 echo "--- Run brew upgrade... ---"
-brew upgrade --all
+brew upgrade
 
 echo "--- Cleaning... ---"
 brew cleanup
