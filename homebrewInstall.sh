@@ -15,6 +15,9 @@ echo "--- Brew tap... ---"
 brew tap caskroom/cask
 brew tap caskroom/homebrew-versions
 brew tap caskroom/fonts
+# install a function to brew-cast-upgrade
+# command: brew cu or brew cu [CASK] (+ brew cask cleanup after that)
+brew tap buo/cask-upgrade
 
 # Formulas TO BE INSTALLED
 formulas=(
@@ -72,8 +75,6 @@ casks=(
   the-unarchiver
   # clipboard expander
   clipmenu
-  # free office
-  libreoffice
   # Growl
   growl-fork
   growlnotify
