@@ -91,6 +91,7 @@ casks=(
   # utility
   cheatsheet
   alfred
+  caffeine
   # latex (shoulde be listed here becuase it could take long time...)
   mactex
   )
