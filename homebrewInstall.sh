@@ -88,6 +88,9 @@ casks=(
   # graphics
   gimp
   inkscape
+  # utility
+  cheatsheet
+  alfred
   # latex (shoulde be listed here becuase it could take long time...)
   mactex
   )
