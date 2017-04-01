@@ -88,6 +88,8 @@ casks=(
   # graphics
   gimp
   inkscape
+  # adobe flash-player plugin
+  flash-npapi
   # utility
   cheatsheet
   alfred
