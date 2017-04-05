@@ -63,6 +63,7 @@ casks=(
   dropbox
   evernote
   google-drive
+  box-sync
   # drawing tool
   skitch
   # web browser
