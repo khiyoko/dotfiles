@@ -96,6 +96,8 @@ casks=(
   alfred
   caffeine
   1password
+  # university
+  papers
   # latex (shoulde be listed here becuase it could take long time...)
   mactex
   )
