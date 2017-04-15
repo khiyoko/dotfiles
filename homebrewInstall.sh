@@ -64,6 +64,7 @@ casks=(
   evernote
   google-drive
   box-sync
+  box-edit
   # drawing tool
   skitch
   # web browser
