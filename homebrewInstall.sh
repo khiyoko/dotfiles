@@ -97,6 +97,7 @@ casks=(
   alfred
   caffeine
   1password
+  google-japanese-ime
   # university
   papers
   # latex (shoulde be listed here becuase it could take long time...)
