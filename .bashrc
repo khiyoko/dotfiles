@@ -9,6 +9,9 @@ PS1='[\e[0;31m\u\e[0m@\e[0;32m\W\e[0m]$'
 # PATH --------------------------------------------------------------- 
 #Setting for Homebrew & VIM 8.0
 export PATH=/usr/local/bin:$PATH
+# to use keg-only formula installed by homebrew
+export PATH="/usr/local/opt/sqlite/bin:$PATH"
+export PATH="/usr/local/opt/curl/bin:$PATH"
 
 # GREP ---------------------------------------------------------------
 # Bold & Red
