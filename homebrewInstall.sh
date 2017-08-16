@@ -93,6 +93,7 @@ casks=(
   # adobe flash-player plugin
   flash-npapi
   # utility
+  iterm2
   cheatsheet
   alfred
   caffeine
