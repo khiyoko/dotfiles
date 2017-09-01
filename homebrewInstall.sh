@@ -62,7 +62,6 @@ casks=(
   # file/text sharing
   dropbox
   evernote
-  google-drive
   box-sync
   box-edit
   # drawing tool
@@ -76,10 +75,7 @@ casks=(
   # unarchiver
   the-unarchiver
   # clipboard expander
-  clipmenu
-  # Growl
-  growl-fork
-  growlnotify
+  # clipmenu
   # sqlite DB Browser
   sqlitebrowser
   # music 
@@ -102,7 +98,7 @@ casks=(
   # university
   papers
   # latex (shoulde be listed here becuase it could take long time...)
-  mactex
+  # mactex
   )
 
 echo "--- Start: brew cask install apps... ---"
