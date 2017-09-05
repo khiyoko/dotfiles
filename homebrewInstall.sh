@@ -87,6 +87,7 @@ casks=(
   gimp
   inkscape
   # adobe flash-player plugin
+  adobe-acrobat-reader
   flash-npapi
   # utility
   iterm2
