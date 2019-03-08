@@ -57,6 +57,7 @@ done
 casks=(
   java
   xquartz
+  docker
   # application cleaner
   appcleaner
   # file/text sharing
