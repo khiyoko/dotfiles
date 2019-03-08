@@ -111,7 +111,7 @@ brew upgrade
 
 echo "--- Cleaning... ---"
 brew cleanup
-brew cask cleanup
+# brew cask cleanup
 
 cat << END
 
