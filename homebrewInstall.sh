@@ -85,6 +85,7 @@ casks=(
   gimp
   inkscape
   # adobe flash-player plugin
+  adobe-acrobat-reader
   flash-npapi
   # text editor
   atom
