@@ -62,8 +62,6 @@ casks=(
   # file/text sharing
   dropbox
   evernote
-  box-sync
-  box-edit
   # drawing tool
   skitch
   # web browser
@@ -88,6 +86,8 @@ casks=(
   inkscape
   # adobe flash-player plugin
   flash-npapi
+  # text editor
+  atom
   # utility
   iterm2
   cheatsheet
@@ -95,8 +95,6 @@ casks=(
   caffeine
   1password
   google-japanese-ime
-  # university
-  papers
   # latex (shoulde be listed here becuase it could take long time...)
   # mactex
   )
