@@ -21,7 +21,7 @@ brew tap buo/cask-upgrade
 
 # Formulas TO BE INSTALLED
 formulas=(
-  # git
+  ## git
   wget  # file downloader
   curl
   tree
@@ -29,22 +29,22 @@ formulas=(
   openssl
   lua
   vim
-  # C
+  ## C
   gcc
-  # SQL
+  ## SQL
   sqlite3
-  # for python
-  pyenv
-  pyenv-virtualenv
-  # for LaTeXiT
+  ## for python
+  # pyenv
+  # pyenv-virtualenv
+  ## for LaTeXiT
   ghostscript
   imagemagick
   pdf2svg
-  # encoding
+  ## encoding
   nkf
-  # 7z
+  ## 7z
   p7zip
-  # file converter
+  ## file converter
   pandoc
   )
 
@@ -58,47 +58,47 @@ casks=(
   java
   xquartz
   docker
-  # application cleaner
+  ## application cleaner
   appcleaner
-  # file/text sharing
+  ## file/text sharing
   dropbox
   evernote
-  # drawing tool
+  ## drawing tool
   skitch
-  # web browser
+  ## web browser
   google-chrome
-  # communication/chat
+  ## communication/chat
   skype
-  # video player
+  ## video player
   vlc
-  # unarchiver
+  ## unarchiver
   the-unarchiver
   # clipboard expander
   # clipmenu
-  # sqlite DB Browser
-  sqlitebrowser
-  # music 
+  ## sqlite DB Browser
+  # sqlitebrowser
+  ## music 
   spotify
-  # fonts
+  ## fonts
   font-myrica
   font-myricam
-  # graphics
+  ## graphics
   gimp
   inkscape
-  # adobe flash-player plugin
+  ## adobe flash-player plugin
   adobe-acrobat-reader
   flash-npapi
-  # text editor
+  ## text editor
   atom
-  # utility
+  ## utility
   iterm2
   cheatsheet
   alfred
   caffeine
   1password
   google-japanese-ime
-  # latex (shoulde be listed here becuase it could take long time...)
-  # mactex
+  ## latex (shoulde be listed here becuase it could take long time...)
+  mactex
   )
 
 echo "--- Start: brew cask install apps... ---"
