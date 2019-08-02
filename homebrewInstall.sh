@@ -28,14 +28,15 @@ formulas=(
   ctags # class/method jump for programming
   openssl
   lua
-  vim
+  # vim
+  macvim
   ## C
   gcc
   ## SQL
   sqlite3
   ## for python
-  # pyenv
-  # pyenv-virtualenv
+  pyenv
+  pyenv-virtualenv
   ## for LaTeXiT
   ghostscript
   imagemagick
